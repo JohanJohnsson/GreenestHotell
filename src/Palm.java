@@ -2,12 +2,11 @@ import InlämningsUppgiftGreenest.TypAvPlanta;
 
 import javax.swing.*;
 
-//Palm ärver Växter som implemeterar interfacet VätskaMängd
+//Palm ärver Växter som implemeterar interfacet VätskeMängd
 public class Palm extends Växter {
     private double kranVatten;
     protected TypAvPlanta plantTyp = TypAvPlanta.PALM;
-
-
+    
     public Palm(String namn, double längd) {
         super(namn, längd);
         this.kranVatten = 0.5 * längd;

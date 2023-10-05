@@ -5,7 +5,7 @@ public class Main {
     Main() {
         String vilkenVäxtInput = JOptionPane.showInputDialog("Vilken växt ska få mat?");
 
-        Växter igge = new Kaktus("Igge", 0.2);                                 
+        Växter igge = new Kaktus("Igge", 0.02);                                 
         Växter laura = new Palm("Laura", 5);
         Växter olof = new Palm("Olof", 1);
         Växter meatloaf = new Köttätande("Meatloaf", 0.7);

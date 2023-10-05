@@ -2,13 +2,12 @@ import InlämningsUppgiftGreenest.TypAvPlanta;
 
 import javax.swing.*;
 
-//Kaktus ärver Växter som implemeterar interfacet VätskaMängd
+//Kaktus ärver Växter som implemeterar interfacet VätskeMängd
 public class Kaktus extends Växter {
 
-    final private double mineralVatten = 0.2;
+    final private double mineralVatten = 0.02;
     protected TypAvPlanta plantTyp = TypAvPlanta.KAKTUS;
-
-
+    
     public Kaktus(String namn, double längd) {
         super(namn, längd);
     }

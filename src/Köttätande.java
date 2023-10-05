@@ -2,12 +2,11 @@ import InlämningsUppgiftGreenest.TypAvPlanta;
 
 import javax.swing.*;
 
-//Köttätande ärver Växter som implemeterar interfacet VätskaMängd
+//Köttätande ärver Växter som implemeterar interfacet VätskeMängd
 public class Köttätande extends Växter {
     private double proteinDryck;
     protected TypAvPlanta plantTyp = TypAvPlanta.KÖTTÄTANDE;
-
-
+    
     public Köttätande(String namn, double längd) {
         super(namn, längd);
         this.proteinDryck = 0.1 + (0.2 * längd);

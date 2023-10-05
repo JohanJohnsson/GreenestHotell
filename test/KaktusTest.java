@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 class KaktusTest {
     
-    Växter igge = new Kaktus("Igge", 0.2);
+    Växter igge = new Kaktus("Igge", 0.02);
     
     @Test
     void getMängdVätska() {
-        double förväntadMängdVätskaIgge = 0.2;
+        double förväntadMängdVätskaIgge = 0.02;
         double faktiskMängdVätskaIgge = igge.getMängdVätska();
         Assertions.assertEquals(förväntadMängdVätskaIgge, faktiskMängdVätskaIgge);
     }

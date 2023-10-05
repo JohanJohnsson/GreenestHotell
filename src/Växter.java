@@ -6,8 +6,7 @@ abstract class Växter implements VätskeMängd {
     private String namn;                    //Ett exempel på inkapsling, private
 
     private double längd;
-
-
+    
     public Växter(String namn, double längd) {
         this.namn = namn;
         this.längd = längd;
